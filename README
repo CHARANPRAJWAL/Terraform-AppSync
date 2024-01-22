@@ -1,0 +1,12 @@
+step 1 : install terraform and configure AWS CLI in your machine.
+step 2 : navigate to the root of the repository and run the following commands:
+
+        2.1: terraform init : to initialise the the backend and download all the required plugins for the provider.
+
+        2.2: terraform plan : will show you all the resources that will be configured and setup in your AWS account but will not deploy them.
+        
+        2.3 : terraform apply :  to deploy all the resources.
+
+step 3( optional) : verify the API created in the AWS console.
+
+step 4 : terraform destroy : if you want to destroy all the resources created.
